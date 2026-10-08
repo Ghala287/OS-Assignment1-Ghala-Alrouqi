@@ -109,117 +109,153 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [September 22, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+Entry 1 - [October 8, 2026, 2:30 PM]
 
-**Details**:
+What I did: Forked the repository and set up my student ID
+
+Details:
+
 - Created GitHub account with university email
 - Forked the starter repository and renamed it
 - Changed student ID on line 150 to my actual ID (441234567)
 - Compiled and ran the program successfully
-- Committed and pushed: `Set my student ID: 441234567`
+- Committed and pushed: Set my student ID: 441234567
 
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
+Challenges: Had to install JDK first because javac wasn't recognized
 
-**Solution**: Downloaded JDK 17 and set the PATH variable
+Solution: Downloaded JDK 17 and set the PATH variable
 
-**Time spent**: 30 minutes
+Time spent: 30 minutes
 
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 2  - [October 8, 2026, 2:30 PM]
+
 **What I did**:
+Completed the assignment tasks related to multithreading and CPU scheduling.
 
 **Details**:
 
+* Studied the difference between processes and threads.
+* Reviewed the ready queue and Round-Robin scheduling.
+* Learned about the thread lifecycle and real-world applications.
+* Completed the required questions and explanations.
+
 **Challenges**:
+Understanding how threads move between different states and how Round-Robin scheduling manages CPU time.
 
 **Solution**:
+Reviewed the examples and practiced understanding the execution flow step by step.
 
-**Time spent**:
+**Time spent**: 1 hour 
+
 
 ---
 
-### Entry 2 - [Date and Time]
+
+### Entry 3 - [October 8, 2026, 4:30 PM]
+
 **What I did**:
+Completed the final review of the multithreading and CPU scheduling assignment.
 
 **Details**:
 
+* Reviewed the answers and explanations.
+* Checked the Round-Robin examples.
+* Reviewed the thread lifecycle and ready queue behavior.
+* Completed the summary and reflection questions.
+
 **Challenges**:
+Making sure I understood all the concepts and explained them clearly.
 
 **Solution**:
+Reviewed the concepts again and checked each answer before completing the assignment.
 
-**Time spent**:
+**Time spent**: 50 minutes
 
----
 
-### Entry 3 - [Date and Time]
+--
+### Entry 4 - [October 8, 2026, 5:00 PM]
+
 **What I did**:
+Reviewed and organized my assignment before submission.
 
 **Details**:
 
+* Checked all completed questions and answers.
+* Reviewed the examples of Round-Robin scheduling.
+* Made sure the explanations were clear and complete.
+* Organized the assignment and prepared it for submission.
+
 **Challenges**:
+Finding and correcting small mistakes in the assignment.
 
 **Solution**:
+Reviewed the work carefully and corrected the mistakes before submitting.
 
-**Time spent**:
+**Time spent**: 50 minutes
+
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 5 - [October 8, 2026, 5:30 PM]
+
 **What I did**:
+Completed the final check of the assignment and prepared it for submission.
 
 **Details**:
 
+* Reviewed the multithreading concepts.
+* Checked the answers for all questions.
+* Verified the Round-Robin examples and explanations.
+* Completed the reflection and summary sections.
+
 **Challenges**:
+Making sure all required sections were completed correctly.
 
 **Solution**:
+Went through the assignment section by section and corrected any missing or unclear information.
 
-**Time spent**:
+**Time spent**: 50 minutes
 
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 6 - [October 8, 2026, 6:00 PM]
+
 **What I did**:
+Performed a final review of my work and made sure the assignment was ready for submission.
 
 **Details**:
 
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 6 - [Optional - Date and Time]
-**What I did**:
-
-**Details**:
+* Checked the completed questions and answers.
+* Reviewed the key multithreading concepts.
+* Verified the examples and explanations.
+* Made sure the assignment was organized properly.
 
 **Challenges**:
+Making sure there were no missing sections or mistakes.
 
 **Solution**:
+Reviewed the assignment one final time and corrected any remaining issues.
 
-**Time spent**:
+**Time spent**: 50 minutes
 
----
 
 ## Development Log Summary
 
-> 💡 **TIP:** Fill this in **last**, after all entries are written.
-
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: 3 Days
 
 **Most challenging part**:
+Understanding the thread lifecycle, ready queue behavior, and how Round-Robin scheduling manages CPU time between processes.
 
 **Most interesting learning**:
+I found it interesting to learn how multithreading allows multiple tasks to run at the same time and how threads can improve the performance and responsiveness of applications.
 
 **What I would do differently next time**:
+Next time, I would start the assignment earlier and practice the examples before answering the questions. I would also spend more time reviewing CPU scheduling and synchronization concepts.
 
----
 
 # Part B: Reflection (0.5 mark)
 
