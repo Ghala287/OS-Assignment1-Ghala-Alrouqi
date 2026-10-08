@@ -296,7 +296,9 @@ I learned that multithreading allows a program to perform multiple tasks at the 
 
 > 💡 **TIP:** Note that the class named `Process` in our code is a *simulated* process, and it is run by a real Java *thread*. Explain that distinction and point to the `new Thread(process)` line in `addProcessToQueue()`.
 
-**Your Answer:** *(3-5 sentences)*
+**Your Answer:** 
+A process is an independent program that has its own memory and resources. A thread is a smaller unit of a process that can perform a task within the program. Threads in the same process share memory and resources, while different processes usually have separate memory spaces. Threads are generally faster and require fewer resources than processes.
+
 
 [Write your answer here.]
 
@@ -308,17 +310,20 @@ I learned that multithreading allows a program to perform multiple tasks at the 
 >
 > 💡 **TIP:** Pick a process with a large burst time (e.g., more than 2 × time quantum) and count how many "added to ready queue" lines it has after the first one. Search your console for its name (e.g., `P3`).
 
-**Your Answer:** *(3-5 sentences)*
+**Your Answer:** 
+The ready queue is a list of processes or threads that are waiting to be assigned to the CPU. When a process becomes ready, it is added to the ready queue. The operating system selects a process from the queue based on the scheduling algorithm being used. After a process gets CPU time, it may finish, wait for another resource, or return to the ready queue.
+
 
 [Write your answer here.]
 
 Example from my output:
-```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
+P1 completed quantum 4000ms | Overall progress: 51x
+Remaining time: 3837ms
+P1 yields CPU for context switch
+P1 added to ready queue | Burst time: 7837ms | Priority: 4
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+This example shows how Process P1 uses the CPU for a time quantum of 4000 ms. After using the CPU, P1 has 3837 ms of execution time remaining. The process then yields the CPU so that another process can use it, which causes a context switch. After that, P1 is placed back into the ready queue because it has not finished yet. Its burst time is 7837 ms, and its priority is 4. This demonstrates how a process moves between the CPU and the ready queue during execution.
 
 ## Question 3: Thread Lifecycle
 
@@ -326,7 +331,8 @@ Example from my output:
 
 > 💡 **TIP:** Follow P1 through the code: created in `addProcessToQueue()`, started in the scheduler loop, sleeping inside `run()`, and the main thread waiting on `join()`. Remember that **the main thread waits** on `join()`, while **P1's thread sleeps** in `Thread.sleep()`. Be clear about which thread is in which state.
 
-**Your Answer:** *(3-5 sentences overall; one short explanation per state)*
+**Your Answer:** A thread lifecycle describes the different states a thread goes through during its execution. A thread starts in the **New** state and moves to the **Ready** state when it is ready to run. When the CPU assigns it time, the thread enters the **Running** state. It may then move to the **Waiting** or **Blocked** state when it needs to wait for a resource. After the resource becomes available, it returns to the **Ready** state. Finally, when the thread completes its task, it enters the **Terminated** state.
+
 
 1. **New**: [When is P1 in the New state?]
 
@@ -344,36 +350,41 @@ Example from my output:
 
 > 💡 **TIP:** Relate each example back to your simulation: what plays the role of the "process", the "time quantum" and the "context switch" in that scenario?
 
-**Your Answer:** *(3-5 sentences per example)*
+**Your Answer:** *Multithreading is used in many real-world applications to allow multiple tasks to run at the same time. For example, web servers use threads to handle requests from many users simultaneously. In video games, threads can manage graphics, sounds, and user input separately. Mobile applications use threads to perform background tasks without slowing down the user interface. Multithreading is also useful in operating systems for managing different processes and tasks efficiently.
+
 
 ### Example 1 (operating-system level): [Name of scenario]
-
+In an operating system, multiple processes may be waiting to use the CPU at the same time. The operating system places these processes in the ready queue and uses a scheduling algorithm to decide which process runs next. When a process reaches its time quantum, the CPU can switch to another process. This allows multiple processes to share the CPU efficiently and improves system responsiveness.
 **Description**:
-[Describe the real-world scenario.]
+The operating system manages multiple processes that need to use the CPU. Each process waits in the ready queue until the scheduler gives it CPU time. After its time quantum ends, the process may be moved back to the ready queue while another process runs. This process continues until all tasks are completed, allowing the CPU to be shared efficiently.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+Round-Robin works well here because it gives each process a fair amount of CPU time. Each process gets a fixed time quantum before the CPU moves to the next process. This prevents one process from using the CPU for too long and keeps the system responsive. It is especially useful when many processes need to share the CPU at the same time.
 
-### Example 2: [Name of application/scenario]
+
+### Example 2: Web Server Handling Multiple User Requests
+
+A web server can use multithreading to handle requests from many users at the same time. Each thread can process a different user's request, allowing the server to respond to multiple users without making them wait for one another.
 
 **Description**:
-[Describe the real-world scenario or application.]
+A web server receives requests from many users at the same time. Multithreading allows the server to create or use different threads to handle these requests simultaneously. While one thread is processing a request, another thread can work on a different user's request. This makes the server faster, more responsive, and able to serve multiple users efficiently.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+Round-Robin works well here because it gives each user request a fair share of CPU time. Each thread gets a fixed time quantum before the CPU switches to another thread. This prevents one request from using all the CPU resources and keeps the server responsive. It is useful when many users are accessing the server at the same time.
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+
+1. I understood the difference between a process and a thread and how they work in an operating system.
+2. I learned how the ready queue and Round-Robin scheduling manage CPU time fairly between processes.
+3. I understood the thread lifecycle and how threads move between different states during execution.
 
 **Concepts I need to study more:**
-1.
-2.
 
----
+1. I need to study synchronization and how to prevent conflicts between threads.
+2. I need to practice CPU scheduling algorithms and understand context switching in more detail.
+
 
 # ✅ Final Checklist (complete before submitting)
 
