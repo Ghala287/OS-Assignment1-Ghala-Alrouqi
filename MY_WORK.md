@@ -33,13 +33,13 @@
 | **Student ID** | [446051393] |
 | **University Email** | [446051393]@std.psau.edu.sa |
 | **GitHub Username** | [Ghala287] |
-| **Repository Link** | [Paste your repository link here] |
+| **Repository Link** | [(https://github.com/Ghala287/OS-Assignment1-Ghala-Alrouqi.git)] |
  
 ---
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: https://drive.google.com/file/d/1xPifilK2O-O8sL5Uqz1psdPTR9sByLY2/view?usp=drivesdk
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
