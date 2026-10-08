@@ -29,10 +29,10 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
+| **Full Name** | [Ghala Alotaibi] |
+| **Student ID** | [446051393] |
+| **University Email** | [446051393]@std.psau.edu.sa |
+| **GitHub Username** | [Ghala287] |
 | **Repository Link** | [Paste your repository link here] |
  
 ---
