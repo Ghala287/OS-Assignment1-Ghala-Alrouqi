@@ -235,7 +235,9 @@
 
 > 💡 **TIP:** Talk about thread creation (`Runnable`, `Thread.start()`), waiting with `Thread.join()`, simulating work with `Thread.sleep()`, and what surprised you.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:** 
+I learned that multithreading allows a program to perform multiple tasks at the same time. Each thread can execute a different part of the program independently. I learned that multithreading can make programs faster and more efficient, especially when there are many tasks to complete. I also learned that threads share the same memory, so they need to be managed carefully to avoid conflicts. Synchronization can be used to control access to shared resources and prevent problems. Multithreading is commonly used in applications that need to perform several operations at once, such as downloading files while using another part of the program. Overall, I learned that multithreading is an important concept for improving the performance and responsiveness of programs.
+
 
 [Write your answer here.]
 
@@ -243,7 +245,8 @@
 
 > 💡 **TIP:** Pick **one** specific challenge (understanding the code, one of the features, Git, the video) and say *why* it was hard.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:** The most challenging part of this assignment was understanding how multiple threads work at the same time. I found it difficult to understand how threads are created and how they execute different tasks independently. Another challenging part was understanding synchronization and how to prevent conflicts when threads share resources. It also took some time to understand the difference between starting a thread and running a normal method. However, practicing the examples helped me understand the concepts better. Overall, the assignment was challenging, but it helped me improve my understanding of multithreading.
+
 
 [Write your answer here.]
 
@@ -251,7 +254,8 @@
 
 > 💡 **TIP:** Describe your method: reading documentation, adding `System.out.println` to debug, re-reading the README, testing after each small change, asking for help.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:** I overcame the challenges by reviewing the lecture materials and studying the examples carefully. I practiced creating and running threads several times to understand how they work. When I had difficulties, I checked my code and corrected the errors step by step. I also focused on understanding synchronization and how threads share resources. Practicing small examples made the concepts easier to understand. By repeating the exercises and learning from my mistakes, I became more confident with multithreading. Overall, practice and reviewing the examples helped me overcome the challenges.
+
 
 [Write your answer here.]
 
@@ -259,7 +263,8 @@
 
 > 💡 **TIP:** Use real applications you know (web browser, game, mobile app, music player) and connect each one to what you built here.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:**Multithreading can be applied in many real-world applications to perform multiple tasks at the same time. For example, a web browser can use different threads to load web pages, download files, and respond to user actions. In mobile applications, multithreading can help perform tasks in the background without freezing the user interface. It can also be used in games to handle graphics, sounds, and other tasks simultaneously. In online systems, multiple threads can process requests from different users at the same time. Multithreading is also useful in servers, where many users may access the system simultaneously. Overall, multithreading helps applications become faster, more responsive, and more efficient.
+
 
 [Write your answer here.]
 
